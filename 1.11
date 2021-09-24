@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int fir, sec;
+	cout << "请输入俩整数" << endl;
+	cin >> fir >> sec;
+	while (fir <= sec) {
+		cout << fir++ << " ";
+	}
+}
